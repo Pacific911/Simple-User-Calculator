@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 40%;
+    height: 60vh;
+    border-top: solid #47b2e4;
+    background-color: rgb(240, 240, 240);
+    text-align: center;    
+    border-bottom: solid #47b2e4;
+}
+div h2{
+    margin-top:10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+div hr{
+    margin: 20px 0;
+    background-color: #47b2e4;
+}
+div input[type="text"]{
+    margin: 8px 0;
+    margin-top:8px;
+    padding: 8px;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+div input[type="text"]{
+    outline: 1px solid #47b2e4;
+    color: "#000";
+}
+
+div input[type="pass"]{
+    margin: 6px 0;
+    margin-top:8px;
+    padding: 8px;
+    width: 65%;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+div input[type="pass"]{
+    outline: 1px solid #47b2e4;
+    color: "#000";
+}
+
+select{
+    border: 1px solid #fff;
+    background-color: #fff;
+    color:#000;
+    margin-right:70%;;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: #959899;
+    
+}
+select {
+    outline: 1px solid #47b2e4;
+
+}
+div input[type=text]:focus{
+    outline: 1px solid #47b2e4;
+}
+button{
+    margin:7px 0;
+    padding:8px 0;
+    width:70px;
+    border-radius: 5px;
+    border: none;
+    background-color: #47b2e4;
+    font-size: 16px;
+    font-weight: bold;
+    cursor:pointer;
+}
+button:focus {
+    outline: 1px solid #47b2e4;
+}
